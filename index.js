@@ -9,7 +9,9 @@ app.get('/', (req, res) => {
 });
 
 app.get('/api/icecream', (req, res) => {
-    const icecream = ["vanilla", "chocolate", "cookies and cream", "strawberry", "banana", "mint chocolate chip", "caramel cream", "neopolitan", "coffee", "fudge"];
+    const icecream = ["Tallest ice cream cone was over 9ft tall", "most vanilla for ice cream comes from madagascar", "chocolate syrup is the most popular topping for icecream", 
+    "California produces the most ice cream in America", "Vanilla is ranked #1 in America", "It takes 3 gallons of milk to make 1 gallon if ice cream", "9% of all milk in the US is used to make ice cream", 
+    "neopolitan", "the ice cream sundae first made in 1880s", "the waffle cone is introduced in 1904"];
 
     res.send(JSON.stringify(icecream));
 });
